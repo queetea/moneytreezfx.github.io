@@ -100,6 +100,27 @@ body{
     50% { transform: translateY(-15px); }
     100% { transform: translateY(0px); }
 }
+.contact-buttons{
+    margin-top:40px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
+}
+
+.telegram-btn{
+    background:linear-gradient(90deg,#00ff88,#00c3ff);
+}
+
+.telegram-msg-btn{
+    background:linear-gradient(90deg,#0088cc,#005f8f);
+    color:white;
+}
+
+.whatsapp-btn{
+    background:linear-gradient(90deg,#25D366,#128C7E);
+    color:white;
+}
 </style>
 </head>
 
@@ -109,7 +130,17 @@ body{
     <h1>MoneyTreezFx</h1>
     <p>Structured Crypto & Trading Guidance — No Noise. Just Strategy.</p>
     <img src="Tradingicon.jpeg" alt="Trading Laptop" class="float-image" style="width:90%; max-width:800px; margin-top:40px; border-radius:20px; box-shadow:0 20px 40px rgba(0,0,0,0.6);">
-    <a href="https://t.me/+L8Os4dsBlkowZTc8" class="cta-btn">Join Our New Telegram</a>
+    <div class="contact-buttons">
+        <a href="https://t.me/+L8Os4dsBlkowZTc8" class="cta-btn telegram-btn">
+        🚀 Join Telegram Community
+        </a>
+        <a href="https://t.me/YOURUSERNAME" class="cta-btn telegram-msg-btn">
+        💬 Message Me on Telegram
+        </a>
+        <a href="https://whatsapp.com/channel/YOURCHANNEL" class="cta-btn whatsapp-btn">
+        📢 Join WhatsApp Channel
+        </a>
+    </div>
 </div>
 
 <div class="section">
